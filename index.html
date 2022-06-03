@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+     <link rel="shortcut icon" href="img\favicon.jpg" type="image/jpg">
+    <title>Wh1tePython</title>
+  </head>
+
+<body>
+
+<div class="wrapper">
+  <!-- ASIDE -->
+<aside class="aside">
+<div class="aside__logo">
+  <a href="#" class="logo"><span>Wh1te</span>Python</a>
+</div>
+<div class="nav__toggler">
+<span></span>
+</div>
+<ul class="aside__nav">
+<li><a href="#home" class="active refnum1"><i class="fa fa-home"></i>Главная</a></li>
+<li><a href="#about"class="refnum2"><i class="fa fa-user"></i>О себе</a></li>
+<li><a href="#service"class="refnum3"><i class="fa fa-list"></i>Навыки</a></li>
+<li><a href="#portfolio"class="refnum4"><i class="fa fa-briefcase"></i>Проекты</a></li>
+<li><a href="#contact"class="refnum5"><i class="fa fa-comments"></i>Контакты</a></li>
+</ul>
+</aside>
+
+
+
+<!-- MAIN CONTENT -->
+<main class="main">
+<!-- HOME CONTENT -->
+  <section class="home  section active" id="home">
+    <div class="container main-content">
+      <div class="row">
+        <div class="home__info padd-15">
+          <h2 class="home-hello">Привет, меня зовут <span class="name">Влад</span> </h2>
+          <h2 class="home-proffesion">Я начинающий <span id="typingF" class="typing">веб-разработчик</span> </h2>
+          <p>Я занимаюсь созданием сайтов с использованием современных технологий</p>
+          <a href="#about" class="button">
+            <span class="button__line  button__line--top"></span>
+            <span class="button__line  button__line--right"></span>
+            <span class="button__line  button__line--bottom"></span>
+            <span class="button__line  button__line--left"></span>
+            Узнать больше</a>
+        </div>
+        <div class="home__img">
+          <img src="img\MyPhoto.jpg" alt="MyPhoto">
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ABOUT CONTENT -->
+<section class="about section" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="section__title">
+      <h3>Обо мне</h3>
+      </div>
+    </div>
+    <div class="about__content padd-15">
+      <div class="row">
+        <div class="about__text">
+          <h2>Я Влад и я <span>веб-программист</span></h2>
+          <p>Занимаюсь созданием сайтов различной сложности с использованием современных технологий, в проектах пользуюсь препроцессором Scss,
+            занимаюсь изучением REACT</p>
+        </div>
+        <div class="about__img">
+          <img src="img\react.png" alt="react">
+        </div>
+      </div>
+      <div class="row">
+        <div class="about__personal padd-15">
+          <div class="row">
+            <div class="about__items">
+              <p>Дата рождения : <span> 10 июня 1999 </span></p>
+            </div>
+            <div class="about__items">
+              <p>Возраст : <span> 23 </span></p>
+            </div>
+            <div class="about__items">
+              <p>Мой сайт : <span> ... </span></p>
+            </div>
+            <div class="about__items">
+              <p>Почта : <span> vvvvvvm.rf@mail.ru </span></p>
+            </div>
+            <div class="about__items">
+              <p>Образование : <span> Высшее по специальности - Информационные системы и технологии (Перспективные информационные технологии)</span> </p>
+            </div>
+            <div class="about__items">
+              <p>Телефон : <span> 8(999)999-99-99 </span></p>
+            </div>
+            <div class="about__items">
+              <p>Родной город : <span> Кореновск </span></p>
+            </div>
+          </div>
+
+         </div>
+        <div class="about__personal--skills padd-15">
+          <div class="row">
+            <div class="skill__items padd-15">
+              <h5>HTML</h5>
+              <div class="progress">
+                <div class="progress--in" style="width: 76%;"></div>
+                <div class="skill--percent">76%</div>
+             </div>
+            </div>
+            <div class="skill__items padd-15">
+              <h5>CSS</h5>
+              <div class="progress">
+                <div class="progress--in" style="width: 65%;"></div>
+                <div class="skill--percent">65%</div>
+             </div>
+            </div>
+            <div class="skill__items padd-15">
+              <h5>JS</h5>
+              <div class="progress">
+                <div class="progress--in" style="width: 30%;"></div>
+                <div class="skill--percent">30%</div>
+             </div>
+            </div>
+            <div class="skill__items padd-15">
+              <h5>REACT</h5>
+              <div class="progress">
+                <div class="progress--in" style="width: 1%;"></div>
+                <div class="skill--percent">В процессе</div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="buttons btn1">
+          <a href="#about" class="button"onclick="alert('Скачано')">
+            <span class="button__line  button__line--top"></span>
+            <span class="button__line  button__line--right"></span>
+            <span class="button__line  button__line--bottom"></span>
+            <span class="button__line  button__line--left"></span>
+            Скачать полное резюме</a>
+        </div>
+        <div class="buttons btn2">
+          <a href="#contact" class="button">
+            <span class="button__line  button__line--top"></span>
+            <span class="button__line  button__line--right"></span>
+            <span class="button__line  button__line--bottom"></span>
+            <span class="button__line  button__line--left"></span>
+            Связаться со мной</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ЧТО МОГУ -->
+<section class="service section " id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section__title">
+        <h3>Что я могу</h3>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Лист умений -->
+      <div class="service__item">
+        <div class="service__item--inner">
+          <div class="icon">
+            <i class="fa fa-code"></i>
+          </div>
+          <h4>Web-dev</h4>
+          <p>Создание одностраничного лендинга</p>
+        </div>
+      </div>
+    <!-- Лист умений -->
+    <div class="service__item">
+      <div class="service__item--inner">
+        <div class="icon">
+          <i class="fa fa-laptop-code"></i>
+        </div>
+        <h4>Adaprive Web-dev</h4>
+        <p>Создание адаптивного макета</p>
+      </div>
+    </div>
+  <!-- Лист умений -->
+  <div class="service__item">
+    <div class="service__item--inner">
+      <div class="icon">
+    <i class="fa fa-network-wired"></i>
+      </div>
+      <h4>Cross-browser Web-dev</h4>
+      <p>Создание кроссбраузерного макета</p>
+    </div>
+  </div>
+<!-- Лист умений -->
+    </div>
+  </div>
+</section>
+  <!-- Project CONTENT -->
+<section class="portfolio section main-content " id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="section__title">
+        <h3>Мои проекты</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="portfolio__header">
+        <h2>Мои готовые проекты : </h2>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Проекты №.... -->
+      <div class="portfolio__item proekt1">
+        <div class="portfolio__item--inner shadow-dark">
+          <div class="portfolio--img">
+            <img src="img\01.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Проекты №.... -->
+      <div class="portfolio__item proekt2">
+        <div class="portfolio__item--inner shadow-dark">
+          <div class="portfolio--img">
+            <img src="img\02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Проекты №.... -->
+      <div class="portfolio__item proekt3">
+        <div class="portfolio__item--inner shadow-dark">
+          <div class="portfolio--img">
+            <img src="img\03.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Проекты №.... -->
+      <!-- Проекты №.... -->
+      <div class="portfolio__item proekt1">
+        <div class="portfolio__item--inner shadow-dark">
+          <div class="portfolio--img">
+            <img src="img\01.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Проекты №.... -->
+      <div class="portfolio__item proekt2">
+        <div class="portfolio__item--inner shadow-dark">
+          <div class="portfolio--img">
+            <img src="img\02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Проекты №.... -->
+      <div class="portfolio__item proekt3">
+        <div class="portfolio__item--inner shadow-dark">
+          <div class="portfolio--img">
+            <img src="img\03.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Проекты №.... -->
+      <!-- Проекты №.... -->
+      <div class="portfolio__item proekt1">
+        <div class="portfolio__item--inner shadow-dark">
+          <div class="portfolio--img">
+            <img src="img\01.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Проекты №.... -->
+      <div class="portfolio__item proekt2">
+        <div class="portfolio__item--inner shadow-dark">
+          <div class="portfolio--img">
+            <img src="img\02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Проекты №.... -->
+      <div class="portfolio__item proekt3">
+        <div class="portfolio__item--inner shadow-dark">
+          <div class="portfolio--img">
+            <img src="img\03.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- Проекты №.... -->
+    </div>
+  </div>
+</section>
+
+<section class="contact section " id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="section__title">
+        <h3>Контакты</h3>
+      </div>
+    </div>
+    <h2 class="contact__title">Остались вопросы?</h2>
+    <h4 class="contact__subtitle">Я всегда на связи</h4>
+    <div class="row">
+<!-- контакт -->
+<div class="contact__info--item item1">
+<div class="icon"> <i class="fa fa-phone" ></i> </div>
+<h3>Звони на телефон :</h3>
+<p>+7(999)634-99-99</p>
+</div>
+<!-- контакт -->
+<div class="contact__info--item item2">
+<div class="icon"> <i class="fa fa-envelope" ></i> </div>
+<h3>Пиши на почту :</h3>
+<p>vvvvvvm.rf@mail.ru</p>
+</div>
+<!-- контакт -->
+<div class="contact__info--item item3">
+<div class="icon"> <i class="fa fa-globe-europe" ></i> </div>
+<h3>Заходи на сайт :</h3>
+<p>vvvvvvm.com</p>
+</div>
+<!-- контакт -->
+    </div>
+  </div>
+</section>
+
+<!-- КОНЕЦ КОНТЕНТНОЙ ЧАСТИ-->
+</main>
+<!-- КОНЕЦ ВСЕГО ЛИСТА -->
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+<script src="js\script.js"></script>
+</body>
+</html>
